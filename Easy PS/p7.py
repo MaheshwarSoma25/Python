@@ -1,12 +1,10 @@
-#Vowels in reverse order
-def vowels_reverse(s):
-    vowels = 'aeiouAEIOU'
-    result = ''
-    for ch in s:
-        for v in vowels:
-            if ch == v:
-                result = ch + result  # Prepend to reverse the order
-    return result
+num = 7554
+new_num = str(num)
 
-print(vowels_reverse("Helloworld"))   # ooe
-print(vowels_reverse("JackspArrow"))  # oAa
+first_num = new_num[0]
+last_num = new_num[-1]
+
+if first_num==last_num:
+  print(True)
+else:
+  print(False)

@@ -1,18 +1,7 @@
-#Factorial
-def fact_while(num):
-    fact = 1
-    i = 1
-    while num >= i:
-        fact *= i
-        i+=1
-    return fact
+#Reverse a string
+str1 = "Python"
+new_str = ""
 
-
-def fact_for(num):
-    fact = 1               
-    for i in range(1, num+1):   
-        fact *= i
-    return fact
-
-print(fact_while(0)) 
-print(fact_for(4))  
+for i in str1:
+  new_str = i + new_str
+print(new_str)

@@ -1,7 +1,9 @@
-#Remove duplicate characters
-str1 = "programming"
+#Reverse the vowels 
+str1 = "Helloworld"
 new_str = ""
-for char in str1:
-    if char not in new_str:
-        new_str += char
-print(new_str)  # progamin
+
+for i in str1:
+  if i in "aeiouAEIOU":
+    for j in i:
+      new_str = i + new_str
+print(new_str)
