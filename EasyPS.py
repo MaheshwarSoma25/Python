@@ -114,14 +114,35 @@
 # print(new_str)
 
 
-str1 = "Helloworld"
 
-for i in str1:
-  if i in "aeiouAEIOU":
+# str1 = "JackSparrow"
+# output = ""
+
+# for i in str1:
+#   if i in "aeiouAEIOU":
+#     for ch in i:
+#       if ch not in output:
+#         output = output + ch
+# print(output)
+
+
+# str2 = "Hello"
+# output = ""
+# for ch in str2:
+#   if ch not in output:
+#     output = output + i
+# print(output)
+
+
+str1 = "madam"
+output = ""
+output2 = ""
+for ch in str1:
+  if str1.count(ch)==1:
+    output = output + ch
+print(output)
     
-
-
-
+    
 
 
 
