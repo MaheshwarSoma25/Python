@@ -134,13 +134,36 @@
 # print(output)
 
 
-str1 = "madam"
-output = ""
-output2 = ""
-for ch in str1:
-  if str1.count(ch)==1:
-    output = output + ch
-print(output)
+# str1 = "madam"
+# output = ""
+# output2 = ""
+# for ch in str1:
+#   if str1.count(ch)==1:
+#     output = output + ch
+# print(output)
+
+
+# str1 = "JohnWick"
+# result = ""
+
+# for i in str1:
+#   if i.isupper():
+#     result = result + i.lower()
+#   elif i.islower():
+#     result = result + i.upper()
+#   else:
+#     result = result + i
+# print(result)
+
+str1 = "NumberOne"
+result = ""
+
+for i in str1:
+  if i.isupper():
+    result = i + result
+  elif i.islower():
+    result = result + i
+print(result)
     
     
 

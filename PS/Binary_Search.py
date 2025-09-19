@@ -12,4 +12,3 @@ while low <= high:
     high = mid - 1
   else:
     low = mid + 1
-
