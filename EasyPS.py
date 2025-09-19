@@ -155,15 +155,15 @@
 #     result = result + i
 # print(result)
 
-str1 = "NumberOne"
-result = ""
+# str1 = "NumberOne"
+# result = ""
 
-for i in str1:
-  if i.isupper():
-    result = i + result
-  elif i.islower():
-    result = result + i
-print(result)
+# for i in str1:
+#   if i.isupper():
+#     result = i + result
+#   elif i.islower():
+#     result = result + i
+# print(result)
     
     
 
