@@ -37,10 +37,7 @@
 #   [4, 5]
 # ]
 
-# for i in range(len(m1)):
-#   for j in range((len(m1[i]))):
-#     print(m1[i][j]*m2[i][j], end=" ")
-#   print()
+
 
 # # Sum of diagonal elements
 # list1 = [
@@ -58,7 +55,6 @@
 # print(sum)
 
 # # Check if the given matrix is an identity matrix
-
 # list1 = [
 #   [1, 0, 0],
 #   [0, 1, 0],
